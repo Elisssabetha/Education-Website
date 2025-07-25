@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header class="header center">
+      <div class="header__leftBar">
+        <a href="index.html" class="header__logo-link"
+          ><img
+            src="./images/logo.svg"
+            alt="логотип с текстом logoipsum"
+            class="header__img"
+        /></a>
+
+        <div class="header__search">
+          <input class="header__input" placeholder="Search bar" type="text" />
+          <img
+            src="./images/search_icon.svg"
+            alt="значок лупы"
+            class="header__search-icon"
+          />
+        </div>
+      </div>
+
+      <div class="header__rightBar">
+        <a href="#" class="header__link">Become an Mentor</a>
+        <div class="header__btnBox">
+          <button class="header__loginBtn">Login</button>
+          <button class="header__singnupBtn">Sign Up</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="info">
+        <div class="info__leftPart">
+          <h1 class="info__title">Find the Best Courses and Amazing Mentor</h1>
+          <p class="info__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringilla urna,
+            porttitor rhoncus
+          </p>
+          <div class="info__searchField">
+            <input
+              type="text"
+              class="info__input"
+              placeholder="Type in the course you want to learn"
+            />
+
+            <img
+              src="./images/search_icon_black.svg"
+              alt="значок лупы"
+              class="info__search-icon"
+            />
+            <button class="info__searchBtn">Search</button>
+          </div>
+
+          <div class="info__tagsBox">
+            <div class="info__tag">
+              <img
+                src="./images/access_alarm.svg"
+                alt="будильник"
+                class="info__tag-icon"
+              />
+              <p class="info__tag-text">Life Time Acces</p>
+            </div>
+            <div class="info__tag">
+              <img
+                src="./images/user.svg"
+                alt="будильник"
+                class="info__tag-icon"
+              />
+              <p class="info__tag-text">Expert Mentor</p>
+            </div>
+            <div class="info__tag">
+              <img
+                src="./images/video_library.svg"
+                alt="будильник"
+                class="info__tag-icon"
+              />
+              <p class="info__tag-text">100K+ Courses</p>
+            </div>
+          </div>
+        </div>
+        <div class="info__rigthPart">
+          <div class="info__image-zone">
+            <div class="info__reviewBox">
+              <h3 class="info__reviews-qty">500+</h3>
+              <h4 class="info__subtitle">Total Review</h4>
+              <div class="info__starbox">
+                <img
+                  src="./images/Star.svg"
+                  alt="звездочка"
+                  class="info__star"
+                />
+                <img
+                  src="./images/Star.svg"
+                  alt="звездочка"
+                  class="info__star"
+                />
+                <img
+                  src="./images/Star.svg"
+                  alt="звездочка"
+                  class="info__star"
+                />
+                <img
+                  src="./images/Star.svg"
+                  alt="звездочка"
+                  class="info__star"
+                />
+                <img
+                  src="./images/Star.svg"
+                  alt="звездочка"
+                  class="info__star"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog center">
+        <h2 class="catalog__title">Trending Courses</h2>
+        <div class="catalog__categories-box">
+          <button class="catalog__categoryBtn catalog__categoryBtn_choosen">
+            All
+          </button>
+          <button class="catalog__categoryBtn">Business</button>
+          <button class="catalog__categoryBtn">Art & Design</button>
+          <button class="catalog__categoryBtn">Development</button>
+          <button class="catalog__categoryBtn">Marketing</button>
+        </div>
+
+        <div class="card-box">
+          <article class="product-card">
+            <div class="product-card__image"></div>
+            <button class="product-card__coursename">UI/UX Design</button>
+            <h6 class="product-card__title">
+              Interpersonal skills - work better with others!
+            </h6>
+            <p class="product-card__subtitle">Tanah Air Team</p>
+            <div class="product-card__starbox">
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+
+              <p class="product-card__star-qty">(2078)</p>
+            </div>
+
+            <div class="product-card__price-box">
+              <p class="product-card__old-price">$640</p>
+              <p class="product-card__price">$384</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__image"></div>
+            <button class="product-card__coursename">Web Developer</button>
+            <h6 class="product-card__title">
+              How to become an Expert Web Developer
+            </h6>
+            <p class="product-card__subtitle">Tanah Air Team</p>
+            <div class="product-card__starbox">
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+
+              <p class="product-card__star-qty">(2078)</p>
+            </div>
+
+            <div class="product-card__price-box">
+              <p class="product-card__old-price">$640</p>
+              <p class="product-card__price">$735</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__image"></div>
+            <button class="product-card__coursename">UX Research</button>
+            <h6 class="product-card__title">
+              User Experience Design Essentials
+            </h6>
+            <p class="product-card__subtitle">Tanah Air Team</p>
+            <div class="product-card__starbox">
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+
+              <p class="product-card__star-qty">(2078)</p>
+            </div>
+
+            <div class="product-card__price-box">
+              <p class="product-card__old-price">$640</p>
+              <p class="product-card__price">$826</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__image"></div>
+            <button class="product-card__coursename">3D Design</button>
+            <h6 class="product-card__title product-card__title_long">
+              Creating 3D Modelling in Blender
+            </h6>
+            <p class="product-card__subtitle">Tanah Air Team</p>
+            <div class="product-card__starbox">
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+
+              <p class="product-card__star-qty">(2078)</p>
+            </div>
+
+            <div class="product-card__price-box">
+              <p class="product-card__old-price">$640</p>
+              <p class="product-card__price">$710</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__image"></div>
+            <button class="product-card__coursename">Public Speaking</button>
+            <h6 class="product-card__title">
+              Interpersonal skills - work better with others!
+            </h6>
+            <p class="product-card__subtitle">Tanah Air Team</p>
+            <div class="product-card__starbox">
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+
+              <p class="product-card__star-qty">(2078)</p>
+            </div>
+
+            <div class="product-card__price-box">
+              <p class="product-card__old-price">$640</p>
+              <p class="product-card__price">$384</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__image"></div>
+            <button class="product-card__coursename">UI/UX Design</button>
+            <h6 class="product-card__title">
+              How to become an Expert Web Developer
+            </h6>
+            <p class="product-card__subtitle">Tanah Air Team</p>
+            <div class="product-card__starbox">
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+
+              <p class="product-card__star-qty">(2078)</p>
+            </div>
+
+            <div class="product-card__price-box">
+              <p class="product-card__old-price">$640</p>
+              <p class="product-card__price">$758</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__image"></div>
+            <button class="product-card__coursename">3D Design</button>
+            <h6 class="product-card__title product-card__title_long">
+              Creating 3D Modelling in Blender
+            </h6>
+            <p class="product-card__subtitle">Tanah Air Team</p>
+            <div class="product-card__starbox">
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+
+              <p class="product-card__star-qty">(2078)</p>
+            </div>
+
+            <div class="product-card__price-box">
+              <p class="product-card__old-price">$640</p>
+              <p class="product-card__price">$973</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__image"></div>
+            <button class="product-card__coursename">UI/UX Design</button>
+            <h6 class="product-card__title">
+              Interpersonal skills - work better with others!
+            </h6>
+            <p class="product-card__subtitle">Tanah Air Team</p>
+            <div class="product-card__starbox">
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+              <img
+                src="./images/small_star.svg"
+                alt="звездочка"
+                class="product-card__star"
+              />
+
+              <p class="product-card__star-qty">(2078)</p>
+            </div>
+
+            <div class="product-card__price-box">
+              <p class="product-card__old-price">$640</p>
+              <p class="product-card__price">$273</p>
+            </div>
+          </article>
+        </div>
+
+        <button class="catalog__moreBtn">More Course</button>
+      </section>
+    </main>
+  </body>
+</html>
