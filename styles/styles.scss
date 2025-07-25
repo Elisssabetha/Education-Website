@@ -84,6 +84,7 @@ input {
         display: flex;
         column-gap: 16px;
         align-items: center;
+        // flex-wrap: wrap;
     }
 
     &__loginBtn {
@@ -483,3 +484,5 @@ input {
 .product-card:hover {
     box-shadow: 40px 40px 57px 0px rgba(0, 0, 0, 0.1);
 }
+
+@import 'tablet';
