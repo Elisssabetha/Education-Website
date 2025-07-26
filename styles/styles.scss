@@ -397,7 +397,20 @@ input {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        transition: all 1s;
 
+    }
+
+    &__moreBtn:hover {
+        border: 1px solid rgb(247, 37, 133);
+        background: transparent;
+        color: rgb(247, 37, 133);
+    }
+
+    &__moreBtn:active {
+        border: none;
+        background: rgba(250, 107, 172, 1);
+        color: rgba(255, 255, 255, 1);
     }
 }
 
