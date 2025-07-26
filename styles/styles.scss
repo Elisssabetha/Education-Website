@@ -209,6 +209,7 @@ input {
         transform: translateY(-50%);
         left: 16px;
     }
+    
 
     &__searchBtn {
         width: 121px;
@@ -525,3 +526,4 @@ input {
 }  
 
 @import 'tablet';
+@import 'mobil';

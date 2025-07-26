@@ -495,4 +495,77 @@ input {
   .product-card {
     width: 350px;
   }
+}
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header__logo-link {
+    display: none;
+  }
+  .header__input {
+    display: none;
+  }
+  .header__search-icon {
+    left: 24px;
+  }
+  .header__loginBtn {
+    width: 129px;
+  }
+  .header__leftBar {
+    justify-content: flex-end;
+  }
+  .header__link {
+    display: none;
+  }
+  .header__link-icon {
+    display: block;
+  }
+  .header__icon-img {
+    width: 36px;
+    height: 36px;
+  }
+  .header__btnBox {
+    row-gap: 10px;
+    flex-direction: column;
+  }
+  .info {
+    margin: 0;
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .info__rigthPart {
+    display: none;
+  }
+  .info__title {
+    font-size: 24px;
+    text-align: center;
+  }
+  .info__text {
+    font-size: 20px;
+    text-align: center;
+  }
+  .info__searchField {
+    width: 95%;
+  }
+  .info__input {
+    height: 50px;
+  }
+  .info__searchBtn {
+    height: 30px;
+    width: 90px;
+  }
+  .info__tagsBox {
+    flex-wrap: wrap;
+    row-gap: 24px;
+    justify-content: center;
+  }
+  .catalog__categories-box {
+    flex-wrap: wrap;
+  }
+  .product-card {
+    width: 350px;
+  }
 }/*# sourceMappingURL=styles.css.map */
