@@ -62,6 +62,9 @@ input {
   outline: none;
   padding: 12px 16px;
 }
+.header__link-icon {
+  display: none;
+}
 .header__link {
   color: rgb(28, 53, 84);
   font-family: Montserrat;
@@ -339,6 +342,7 @@ input {
   row-gap: 24px;
   -moz-column-gap: 16px;
        column-gap: 16px;
+  justify-content: center;
 }
 
 .product-card {
@@ -433,6 +437,26 @@ input {
   box-shadow: 40px 40px 57px 0px rgba(0, 0, 0, 0.1);
 }
 
+@media (min-width: 1024px) and (max-width: 1300px) {
+  .center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .header__input {
+    width: 300px;
+  }
+  .header__leftBar {
+    padding-left: 10px;
+    justify-content: flex-end;
+  }
+  .info {
+    margin: 0;
+    width: 100%;
+  }
+  .info__rigthPart {
+    display: none;
+  }
+}
 @media (min-width: 768px) and (max-width: 1023px) {
   .center {
     padding-left: 24px;
@@ -447,6 +471,16 @@ input {
   .header__leftBar {
     justify-content: flex-end;
   }
+  .header__link {
+    display: none;
+  }
+  .header__link-icon {
+    display: block;
+  }
+  .header__icon-img {
+    width: 36px;
+    height: 36px;
+  }
   .header__btnBox {
     row-gap: 10px;
     flex-direction: column;
@@ -457,9 +491,6 @@ input {
   }
   .info__rigthPart {
     display: none;
-  }
-  .card-box {
-    justify-content: center;
   }
   .product-card {
     width: 350px;
