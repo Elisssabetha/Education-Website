@@ -149,6 +149,7 @@ input {
 .info {
     border-radius: 8px;
     background: rgb(2, 25, 52);
+    overflow: hidden;
     margin-left: calc(50% - 680px);
     margin-right: calc(50% - 680px);
     height: 748px;
@@ -156,6 +157,7 @@ input {
     padding-right: 64px;
     display: flex;
     flex-direction: row;
+    position: relative;
 
     &__leftPart {
         padding-top: 88px;
@@ -209,7 +211,7 @@ input {
         transform: translateY(-50%);
         left: 16px;
     }
-    
+
 
     &__searchBtn {
         width: 121px;
@@ -275,6 +277,7 @@ input {
             47px 375px,
             100% 292px;
         position: relative;
+        z-index: 1;
     }
 
     &__reviewBox {
@@ -315,6 +318,24 @@ input {
         column-gap: 8px;
     }
 }
+
+.info::before {
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 640px;
+    width: 800px;
+    height: 800px;
+    background: radial-gradient(
+        circle at 50% 50%,
+        rgba(250, 107, 172, 0.8),
+        transparent 70%
+    );
+    filter: blur(123px);
+    z-index: 0;
+    border-radius: 50%;
+}
+
 
 .catalog {
     margin-top: 88px;
@@ -509,7 +530,7 @@ input {
             justify-content: flex-end;
         }
 
-        
+
     }
 
     .info {
@@ -519,11 +540,11 @@ input {
         &__rigthPart {
             display: none;
         }
-        
+
     }
 
-    
-}  
+
+}
 
 @import 'tablet';
 @import 'mobil';
